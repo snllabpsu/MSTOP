@@ -1,0 +1,149 @@
+<?xml version="1.0" ?>
+<task_protocol>
+	<analog_inputs>[['TARGET_ON', '', 1.0, 0.0, '', True], 
+		['TARGET_X', 'm', 1.0, 0.0, '', True], 
+		['TARGET_Y', 'm', 1.0, 0.0, '', True], 
+		['handForceData', '', 1.0, 0.0, '', True], 
+		['pertForceData', '', 1.0, 0.0, '', True], 
+		['timeForceData', '', 1.0, 0.0, '', True], 
+		['handImpulse', '', 1.0, 0.0, '', True], 
+		['robotImpulse', '', 1.0, 0.0, '', True], 
+		['impulseDifference', '', 1.0, 0.0, '', True], 
+		['differencePercentage', '', 1.0, 0.0, '', True], 
+		['constantLoad1', '', 1.0, 0.0, '', True], 
+		['constantLoad2', '', 1.0, 0.0, '', True], 
+		['constantLoad3', '', 1.0, 0.0, '', True], 
+		['constantLoad4', '', 1.0, 0.0, '', True], 
+		['a1_M1TorMSRD', '', 1.0, 0.0, 'Measured torque for Motor 1 (Arm 1)', True], 
+		['a1_M2TorMSRD', '', 1.0, 0.0, 'Measured torque for Motor 2 (Arm 1)', True], 
+		['a2_M1TorMSRD', '', 1.0, 0.0, 'Measured torque for Motor 1 (Arm 2)', True], 
+		['a2_M2TorMSRD', '', 1.0, 0.0, 'Measured torque for Motor 2 (Arm 2)', True], 
+		['ACH4', '', 1.0, 0.0, '', True], 
+		['ACH5', '', 1.0, 0.0, '', True], 
+		['ACH6', '', 1.0, 0.0, '', True], 
+		['ACH7', '', 1.0, 0.0, '', True]]</analog_inputs>
+	<analog_inputs_row_count>22</analog_inputs_row_count>
+	<binary_data>[]</binary_data>
+	<binary_data_defs>[]</binary_data_defs>
+	<blocktable>[['1', 24, '', False, 1], 
+		['0', 1, '', True, 0], 
+		['0', 1, '', False, 0], 
+		['0', 1, '', False, 0], 
+		['0', 1, '', False, 0], 
+		['0', 1, '', False, 0], 
+		['0', 1, '', False, 0], 
+		['0', 1, '', False, 0], 
+		['0', 1, '', False, 0], 
+		['0', 1, '', False, 0], 
+		['0', 1, '', False, 0], 
+		['0', 1, '', False, 0]]</blocktable>
+	<blocktable_row_count>50</blocktable_row_count>
+	<code>'BSC'</code>
+	<data_rate>1000</data_rate>
+	<description>'Basic Task'</description>
+	<feedback_mode>1</feedback_mode>
+	<gaze_feedback_mode>0</gaze_feedback_mode>
+	<instructions>''</instructions>
+	<instructions_default>''</instructions_default>
+	<last_modified>'2022-08-09  09:50 AM'</last_modified>
+	<loadtable>[[0.0, 0.0, 10.0, 140.0], 
+		[0.0, -4.0, 0.0, 0.0]]</loadtable>
+	<loadtable_defs>[['X_LOAD', 'float'], ['Y_LOAD', 'float'], ['RAMP', 'float'], ['DURATION', 'float']]</loadtable_defs>
+	<loadtable_row_count>20</loadtable_row_count>
+	<name>'EIFANG_D1_S3'</name>
+	<pause_behaviour>0</pause_behaviour>
+	<random_seed>1</random_seed>
+	<save_binary_data>False</save_binary_data>
+	<targetfor>['Handle', ['Active', 0, -42], False]</targetfor>
+	<targetfor_ep>['Global Coordinate System', ['None'], False]</targetfor_ep>
+	<targetfor_exo>('Fingertip', ['Active', 30, 90], True)</targetfor_exo>
+	<targettable>[[8.0, 8.0, 0.0, '255000000', 4.5, 2.8, '255255255', 0.0, '0', '0'], 
+		[0.0, 13.0, 1.0, '1000000000', 10.0, 6.0, '255255255', 0.4, '000128000', '255000000'], 
+		[0.0, 36.0, 1.25, 'gabor-gaussian-90.00-96-24.00-0.10-0.00-128-128-128-255-255-0-255-0-0.png', 0.0, 0.0, '1000000000', 0.0, '0', '0'], 
+		[0.0, 0.0, 0.0, '000170170', 3.0, 1.5, '1000000000', 0.0, '0', '0'], 
+		[0.0, 13.0, 1.0, 'gabor-gaussian-90.00-96-24.00-0.10-0.00-0-0-0-255-255-0-255-0-0.png', 0.0, 0.0, '0.0', 0.0, '0', '0'], 
+		[0.0, 13.0, 1.0, 'gabor-gaussian-90.00-96-24.00-0.10-0.00-255-255-255-255-0-0-255-255-0.png', 0.0, 0.0, '0.0', 0.0, '0', '0'], 
+		[0.0, 35.0, 0.5, 'circular_fixation_cross.png', 0.0, 0.0, '0.0', 0.0, '0', '0'], 
+		[0.0, 25.0, 0.0, '240240240', 0.6, 1.2, '0.0', 0.0, '0', '0'], 
+		[0.0, 25.0, 0.0, '255000000', 50.0, 1.1, '0.0', 0.0, '0', '0'], 
+		[0.0, 25.0, 0.0, '000128000', 16.0, 1.1, '0.0', 0.0, '0', '0'], 
+		[0.0, 34.0, 1.25, 'gabor-gaussian-90.00-96-24.00-0.10-0.00-128-128-128-255-255-0-255-0-0.png', 0.0, 0.0, '1000000000', 0.0, '0', '0'], 
+		[0.0, 0.0, 0.0, '0.0', 0.0, 0.0, '0.0', 0.0, '0', '0'], 
+		[0.0, 0.0, 0.0, '0.0', 0.0, 0.0, '0.0', 0.0, '0', '0'], 
+		[0.0, 0.0, 0.0, '0.0', 0.0, 0.0, '0.0', 0.0, '0', '0'], 
+		[0.0, 0.0, 0.0, '0.0', 0.0, 0.0, '0.0', 0.0, '0', '0'], 
+		[0.0, 0.0, 0.0, '0.0', 0.0, 0.0, '0.0', 0.0, '0', '0'], 
+		[0.0, 0.0, 0.0, '0.0', 0.0, 0.0, '0.0', 0.0, '0', '0'], 
+		[0.0, 0.0, 0.0, '0.0', 0.0, 0.0, '0.0', 0.0, '0', '0'], 
+		[0.0, 0.0, 0.0, '0.0', 0.0, 0.0, '0.0', 0.0, '0', '0'], 
+		[0.0, 0.0, 0.0, '0.0', 0.0, 0.0, '0.0', 0.0, '0', '0'], 
+		[0.0, 0.0, 0.0, '0.0', 0.0, 0.0, '0.0', 0.0, '0', '0'], 
+		[0.0, 0.0, 0.0, '0.0', 0.0, 0.0, '0.0', 0.0, '0', '0'], 
+		[0.0, 0.0, 0.0, '0.0', 0.0, 0.0, '0.0', 0.0, '0', '0'], 
+		[0.0, 0.0, 0.0, '0.0', 0.0, 0.0, '0.0', 0.0, '0', '0'], 
+		[0.0, 0.0, 0.0, '0.0', 0.0, 0.0, '0.0', 0.0, '0', '0'], 
+		[0.0, 0.0, 0.0, '0.0', 0.0, 0.0, '0.0', 0.0, '0', '0'], 
+		[0.0, 0.0, 0.0, '0.0', 0.0, 0.0, '0.0', 0.0, '0', '0'], 
+		[0.0, 0.0, 0.0, '0.0', 0.0, 0.0, '0.0', 0.0, '0', '0'], 
+		[0.0, 0.0, 0.0, '0.0', 0.0, 0.0, '0.0', 0.0, '0', '0'], 
+		[0.0, 0.0, 0.0, '0.0', 0.0, 0.0, '0.0', 0.0, '0', '0'], 
+		[0.0, 0.0, 0.0, '0.0', 0.0, 0.0, '0.0', 0.0, '0', '0'], 
+		[0.0, 0.0, 0.0, '0.0', 0.0, 0.0, '0.0', 0.0, '0', '0'], 
+		[0.0, 0.0, 0.0, '0.0', 0.0, 0.0, '0.0', 0.0, '0', '0'], 
+		[0.0, 0.0, 0.0, '0.0', 0.0, 0.0, '0.0', 0.0, '0', '0'], 
+		[0.0, 0.0, 0.0, '0.0', 0.0, 0.0, '0.0', 0.0, '0', '0'], 
+		[0.0, 0.0, 0.0, '0.0', 0.0, 0.0, '0.0', 0.0, '0', '0'], 
+		[0.0, 0.0, 0.0, '0.0', 0.0, 0.0, '0.0', 0.0, '0', '0'], 
+		[0.0, 0.0, 0.0, '0.0', 0.0, 0.0, '0.0', 0.0, '0', '0'], 
+		[0.0, 0.0, 0.0, '0.0', 0.0, 0.0, '0.0', 0.0, '0', '0'], 
+		[0.0, 0.0, 0.0, '0.0', 0.0, 0.0, '0.0', 0.0, '0', '0'], 
+		[0.0, 0.0, 0.0, '0.0', 0.0, 0.0, '0.0', 0.0, '0', '0'], 
+		[0.0, 0.0, 0.0, '0.0', 240240240.0, 0.0, '0.0', 0.0, '0', '0'], 
+		[0.0, 0.0, 0.0, '0.0', 0.0, 0.0, '0.0', 0.0, '0', '0'], 
+		[0.0, 0.0, 0.0, '0.0', 0.0, 0.0, '0.0', 0.0, '0', '0'], 
+		[0.0, 0.0, 0.0, '0.0', 0.0, 0.0, '0.0', 0.0, '0', '0'], 
+		[0.0, 0.0, 0.0, '0.0', 0.0, 0.0, '0.0', 0.0, '0', '0'], 
+		[0.0, 0.0, 0.0, '0.0', 0.0, 0.0, '0.0', 0.0, '0', '0'], 
+		[0.0, 0.0, 0.0, '0.0', 0.0, 0.0, '0.0', 0.0, '0', '0'], 
+		[0.0, 0.0, 0.0, '0.0', 0.0, 0.0, '0.0', 0.0, '0', '0'], 
+		[0.0, 0.0, 0.0, '0.0', 0.0, 0.0, '0.0', 0.0, '0', '0'], 
+		[0.0, 0.0, 0.0, '0.0', 0.0, 0.0, '0.0', 0.0, '0', '0'], 
+		[0.0, 0.0, 0.0, '0.0', 0.0, 0.0, '0.0', 0.0, '0', '0'], 
+		[0.0, 0.0, 0.0, '0.0', 0.0, 0.0, '0.0', 0.0, '0', '0'], 
+		[0.0, 0.0, 0.0, '0.0', 0.0, 0.0, '0.0', 0.0, '0', '0'], 
+		[0.0, 0.0, 0.0, '0.0', 0.0, 0.0, '0.0', 0.0, '0', '0'], 
+		[0.0, 0.0, 0.0, '0.0', 0.0, 0.0, '0.0', 0.0, '0', '0'], 
+		[0.0, 0.0, 0.0, '0.0', 0.0, 0.0, '0.0', 0.0, '0', '0'], 
+		[0.0, 0.0, 0.0, '0.0', 0.0, 0.0, '0.0', 0.0, '0', '0'], 
+		[0.0, 0.0, 0.0, '0.0', 0.0, 0.0, '0.0', 0.0, '0', '0'], 
+		[0.0, 0.0, 0.0, '0.0', 0.0, 0.0, '0.0', 0.0, '0', '0'], 
+		[0.0, 0.0, 0.0, '0.0', 0.0, 0.0, '0.0', 0.0, '0', '0'], 
+		[0.0, 0.0, 0.0, '0.0', 0.0, 0.0, '0.0', 0.0, '0', '0'], 
+		[0.0, 0.0, 0.0, '0.0', 0.0, 0.0, '0.0', 0.0, '0', '0'], 
+		[0.0, 0.0, 0.0, '0.0', 0.0, 0.0, '0.0', 0.0, '0', '0']]</targettable>
+	<targettable_defs>[['X', 'float'], ['Y', 'float'], ['Visual Radius', 'float'], ['Initial Color', 'colour'], ['Length', 'float'], ['Height', 'float'], ['Initial outline color', 'colour'], ['Outline Width', 'float'], ['Outline color when correct', 'colour'], ['Outline color when incorrect', 'colour']]</targettable_defs>
+	<targettable_row_count>64</targettable_row_count>
+	<tasklevelparams>[['AFTER_FIXATION', '250.00'], 
+		['CIRCLE_FEEDBACK_ROW', '8.00'], 
+		['DELAY_IMPACT_AREA', '800.00'], 
+		['FEEDBACK_TIME', '1500.00'], 
+		['FIXATION_CROSS_ROW', '7.00'], 
+		['FIXATION_DURATION', '800.00'], 
+		['HAND_FB', '4.00'], 
+		['MAX_REACH_IMPACT_AREA', '1500.00'], 
+		['SQUARE_IN_FEEDBACK_ROW', '10.00'], 
+		['SQUARE_OUT_FEEDBACK_ROW', '9.00']]</tasklevelparams>
+	<tasklevelparams_defs>[['FEEDBACK_TIME', 'float'], ['HAND_FB', 'float'], ['FIXATION_DURATION', 'float'], ['AFTER_FIXATION', 'float'], ['FIXATION_CROSS_ROW', 'float'], ['DELAY_IMPACT_AREA', 'float'], ['MAX_REACH_IMPACT_AREA', 'float'], ['SQUARE_OUT_FEEDBACK_ROW', 'float'], ['SQUARE_IN_FEEDBACK_ROW', 'float'], ['CIRCLE_FEEDBACK_ROW', 'float']]</tasklevelparams_defs>
+	<tasklevelparams_row_count>10</tasklevelparams_row_count>
+	<tptable>[[1, 2, 3, 1500, 300, 1500, 1, 2, 0.35, 3.0, 8.0], 
+		[1, 2, 11, 1500, 300, 1500, 1, 2, 0.3, 3.0, 8.0], 
+		[0, 0, 0, 0, 0, 0, 0, 0, 0.0, 0.0, 0.0], 
+		[0, 0, 0, 0, 0, 0, 0, 0, 0.0, 0.0, 0.0], 
+		[0, 0, 0, 0, 0, 0, 0, 0, 0.0, 0.0, 0.0], 
+		[0, 0, 0, 0, 0, 0, 0, 0, 0.3, 0.0, 0.0]]</tptable>
+	<tptable_defs>[['Start Target', 'target'], ['Impact Area', 'target'], ['Moving Target', 'target'], ['Reach Time', 'int'], ['Starting target Delay', 'int'], ['Post-Trial Delay', 'int'], ['Perturbation', 'load'], ['Background load', 'load'], ['Speed', 'float'], ['Mass', 'float'], ['Error', 'float']]</tptable_defs>
+	<tptable_row_count>100</tptable_row_count>
+	<use_repeat_trial_flag>1</use_repeat_trial_flag>
+	<version>3.9</version>
+	<video>''</video>
+</task_protocol>
